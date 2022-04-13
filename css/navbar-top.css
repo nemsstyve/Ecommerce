@@ -1,0 +1,51 @@
+/* Show it's not fixed to the top */
+body,html{
+ /* min-height: 75rem;*/
+ height: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6, a{
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.link
+{
+  font-size: 110%;
+  margin-right: 30px; 
+}
+
+.float
+{
+   margin-right: 65px; 
+    
+}
+
+.top
+{
+  margin-top: 100px;
+}
+
+.titre
+{
+  text-align: center;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+.service
+{
+  margin-top: 20px;
+}
+
